@@ -34,12 +34,12 @@ To run the application locally, you'll first need a Wolfram Alpha Api key. Get y
 
 Once you have an api key, clone this repo:  
 ```sh
-git clone https://github.com/joshrabiu/Omnus.git
+git clone https://github.com/cocoli89/Omnus_Siri_clone.git
 ```  
 
 cd into the project directory
 ```sh
-cd Omnus
+cd Omnus_Siri_clone
 ```
 
 
@@ -55,13 +55,13 @@ Then refer to the following sections:
 
 Build the Docker image using the local dockerfile
 ```sh
-docker build -t joshrabiu/omnus .
+docker build -t cocoli89/Omnus_Siri_clone .
 ```
 
 Then, run the following commands, replacing PORT_NUMBER with the port you want the application to run on locally:
 
 ```sh
-docker run -p $PORT_NUMBER:8000 joshrabiu/omnus
+docker run -p $PORT_NUMBER:8000 cocoli89/Omnus_Siri_clone
 ```
 
 For regular Docker users, the app will be running on
